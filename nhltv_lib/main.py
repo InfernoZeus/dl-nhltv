@@ -15,10 +15,7 @@ from nhltv_lib.auth import (
 )
 from nhltv_lib.exceptions import AuthenticationFailed, BlackoutRestriction
 from nhltv_lib.obfuscate import obfuscate
-from nhltv_lib.downloaded_games import (
-    add_to_downloaded_games,
-    get_downloaded_games,
-)
+from nhltv_lib.downloaded_games import get_downloaded_games
 from nhltv_lib.types import Download, Stream, Game
 import nhltv_lib.game_tracking as game_tracking
 from nhltv_lib.db_session import setup_db
